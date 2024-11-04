@@ -46,4 +46,40 @@
 - Users can create dashboards by pinning visualizations from different reports. This provides a high-level overview of key performance indicators (KPIs) and metrics in one place, allowing for quick insights.
 
 **Workspaces**
-- Work
+- Workspaces in Power BI Service enable teams to collaborate on reports and datasets. Different access levels can be assigned, such as Admin, Member, or Contributor, ensuring appropriate permissions are in place.
+
+**Apps**
+- Organizations can bundle related dashboards and reports into a Power BI app, making it easy for users to find and interact with the data they need without navigating through individual reports.
+
+---
+
+### Power BI Mobile
+
+**Overview**: Power BI Mobile is the mobile application version of Power BI, available on both iOS and Android platforms. It provides users with on-the-go access to their reports and dashboards.
+
+#### Key Features
+
+**Accessibility**
+- Users can access Power BI reports and dashboards from their mobile devices, making it convenient to check data and insights anytime and anywhere.
+
+**Interactivity**
+- The mobile app maintains the interactivity of reports. Users can drill down into visualizations, filter data, and explore insights just like they can on the desktop version.
+
+**Notifications**
+- The app allows users to set up alerts for specific metrics, sending notifications when data reaches certain thresholds. This feature is particularly useful for monitoring KPIs in real-time.
+
+**Optimized Views**
+- Power BI Mobile optimizes reports for smaller screens, ensuring that visualizations are easy to read and navigate on smartphones and tablets.
+
+**Offline Access**
+- Some reports can be accessed offline, allowing users to view previously loaded data even without an internet connection.
+
+---
+
+### Integration of Components
+
+Together, these three components create a robust ecosystem for business intelligence:
+
+- **Power BI Desktop** is where data preparation and report creation happen, serving as the initial development environment.
+- **Power BI Service** facilitates collaboration, sharing, and continuous access to insights in the cloud, enhancing team productivity.
+- **Power BI Mobile** extends the reach of reports, allowing users to stay informed and make decisions on the go.
