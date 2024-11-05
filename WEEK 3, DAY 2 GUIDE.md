@@ -5,13 +5,13 @@
 A **report** provides a detailed, static analysis of data, often with tables, charts, and narrative explanations. Shared periodically, reports give historical insights ideal for managers or analysts needing in-depth information on specific topics, like financials or compliance.
 
 **Report Example 1**
-![image](https://github.com/user-attachments/assets/c47c2797-bfea-414d-b937-ed1c50684402)
+![image](https://github.com/HarunMbaabu/Data-Analytics-Course-Resources/blob/main/assets/operations-dashboard-example.png)
 
 
 A **dashboard** gives a high-level, real-time overview of key metrics through interactive visuals like charts and KPIs. Dashboards are ideal for quick decision-making, allowing users to adjust filters or drill into data for instant insights, making them popular for tracking ongoing performance. 
 
 **Dashboard Example 1:**
-![image](https://github.com/user-attachments/assets/bba84ed0-81b7-4534-b20d-2ccc67a09ae6)
+![image](https://github.com/HarunMbaabu/Data-Analytics-Course-Resources/blob/main/assets/operations-dashboard-example.png)
 
 ### 1. Flat Files (CSV/Text)
 - **Explanation**: Flat files, like CSV or text files, contain data in a single table without any built-in relationships. Think of them as simple spreadsheets where all data is in rows and columns, without links to other tables.
