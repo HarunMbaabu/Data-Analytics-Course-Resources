@@ -1,6 +1,6 @@
 
  
-### Differentiate Report vs Dashboard. 
+## Differentiate Report vs Dashboard. 
 
 A **report** provides a detailed, static analysis of data, often with tables, charts, and narrative explanations. Shared periodically, reports give historical insights ideal for managers or analysts needing in-depth information on specific topics, like financials or compliance.
 
@@ -13,6 +13,7 @@ A **dashboard** gives a high-level, real-time overview of key metrics through in
 **Dashboard Example 1:**
 ![image](https://github.com/HarunMbaabu/Data-Analytics-Course-Resources/blob/main/assets/operations-dashboard-example.png)
 
+## Understanding Data Types in Power BI
 ### 1. Flat Files (CSV/Text)
 - **Explanation**: Flat files, like CSV or text files, contain data in a single table without any built-in relationships. Think of them as simple spreadsheets where all data is in rows and columns, without links to other tables.
 - **In Power BI**: Flat files are easy to import and ideal for small datasets or lists. When loading a CSV into Power BI, you’re pulling in a single table, so any relationships between tables need to be created manually in Power BI if you bring in additional files.
