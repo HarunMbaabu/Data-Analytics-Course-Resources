@@ -279,3 +279,20 @@ DAX’s functionality enhances Power BI by providing dynamic and powerful tools 
      ```DAX
      Top 5 Branches by Transactions = IF([Rank by Transaction Amount] <= 5, 1, 0)
      ```
+
+
+# Query Editor Short Cut Keys
+
+| Action                    | Windows Keyboard Shortcut | macOS Keyboard Shortcut |
+|---------------------------|---------------------------|--------------------------|
+| **Get data**              | Ctrl + Alt + D           | Control + Option + D     |
+| **Enter data**            | Ctrl + Alt + T           | Command + Option + T     |
+| **Add custom column**     | Ctrl + Alt + C           | Command + Option + C     |
+| **Choose column**         | Ctrl + K                 | Command + K              |
+| **Go to column**          | Ctrl + G                 | Command + G              |
+| **Add column from examples** | Ctrl + E             | Command + E              |
+| **Blank query**           | Ctrl + M                 | Fn + Command + M         |
+| **Advanced editor**       | Ctrl + Shift + M         | Command + Shift + M      |
+| **Refresh**               | Alt + F5                 | Option + F5              |
+| **Search**                | Alt + Q                  | Option + Q               |
+
