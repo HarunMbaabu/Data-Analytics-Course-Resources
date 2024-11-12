@@ -18,7 +18,7 @@ TODOs:
   ##**Features of power query:**
   ![features of power query](https://k21academy.com/wp-content/uploads/2021/04/img4.png)
 
-- **Queries Pane**: A new query tab named **TachStocks** (our dataset's name) has been created.
+- **Queries Pane**: A new query tab named **TechStocks** (our dataset's name) has been created.
 
 - **Name Section (Query Settings)**: Displays the name of the query currently in use.
 
