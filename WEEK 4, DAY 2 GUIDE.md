@@ -36,6 +36,25 @@ TODOs:
 
 - **Formula Tab**: When on the **Changed Datatype** step, this tab shows the M-Language code snippet executed in the backend to apply the transformation.
 
+### Power Query M Formula Language
+
+Power Query M is a formula language in Power BI, Excel, and other Microsoft tools for data transformation and preparation. The "M" stands for "mashup," as it’s designed for combining and shaping data from various sources. M is case-sensitive and has a functional syntax, similar to other programming languages.
+
+#### Key Aspects of the M Formula Language
+
+##### 1. **Basic Syntax**
+   - **Comments**: Use `//` for single-line comments and `/* ... */` for multi-line comments.
+   - **Case Sensitivity**: M is case-sensitive (`true` and `True` are not equivalent).
+   - **Statements**: M statements generally follow `let` and `in` syntax, where `let` defines steps and variables, and `in` returns the final result.
+
+   **Example**:
+   ```M
+   let
+       Source = Excel.CurrentWorkbook(){[Name="SalesData"]}[Content],
+       FilteredData = Table.SelectRows(Source, each [Region] = "North")
+   in
+       FilteredData
+
 
 
 **Complete the examples from week 4, day 1 on Power BI Power Query and DAX((Data Analysis Expressions).** 
