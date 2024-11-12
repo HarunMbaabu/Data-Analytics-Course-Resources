@@ -10,8 +10,8 @@ TODOs:
   
         - Learn how to load data from web and sql server.
   
-                    >> Example: https://en.wikipedia.org/wiki/2020_Summer_Olympics_medal_table
-  
-       
+                    **Example:**
+                               (i) Olympics data 2020: https://en.wikipedia.org/wiki/2020_Summer_Olympics_medal_table.
+                               (ii) Staock data for Apple, Google and Microsoft : https://vincentarelbundock.github.io/Rdatasets/csv/Stat2Data/TechStocks.csv
 
-Complete the examples from week 4, day 1 on Power BI Power Query and DAX((Data Analysis Expressions). 
+**Complete the examples from week 4, day 1 on Power BI Power Query and DAX((Data Analysis Expressions).** 
