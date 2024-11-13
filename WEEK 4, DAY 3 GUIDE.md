@@ -2,6 +2,7 @@
 
 Answer: Click through Transform --> Extract --> First Characters
 
+---
 
 ### **Joining Data (Using Merge Queries) in Power BI with Customer and Order Tables.**
 
@@ -35,7 +36,7 @@ Answer: Click through Transform --> Extract --> First Characters
 - After expanding the columns, your **Order** table will now contain additional details from the **Customer** table.
 - Click **Close & Apply** to save the changes and load the transformed data into Power BI.
 
-
+---
 ### **Example Scenario for Appending Data.**
 
 You have three tables: **JanuaryOrders**, **FebruaryOrders**, and **MarchOrders**. Each table contains orders for a specific month, with the same structure (same columns).
@@ -74,3 +75,35 @@ Each table might have these columns:
 #### 5. Review and Close
 - Double-check that all rows from each monthly table have been added to **AllOrders**.
 - Click **Close & Apply** to save your changes and load the combined dataset into Power BI.
+
+
+
+  ---
+### **Step-by-Step Instructions to Unpivot Columns in Power BI.**
+
+#### 1. Open Power BI and Load Your Data:
+- Open **Power BI Desktop**.
+- Go to the "Home" tab and select **Get Data > Excel**.
+- Choose your file (**transactions.xlsx**) and load it into Power BI.
+
+#### 2. Open Power Query Editor:
+- Once the data is loaded, go to **Home > Transform Data**. This opens the Power Query Editor.
+
+#### 3. Select Columns to Unpivot:
+- In the Power Query Editor, locate your data table on the left.
+- Select the columns you want to unpivot. In your case, you would select **Deposit** and **Withdrawal**.
+
+#### 4. Unpivot Columns:
+- With the **Deposit** and **Withdrawal** columns selected, go to the **Transform** tab in the menu.
+- Click **Unpivot Columns**.
+
+#### 5. Rename the Unpivoted Columns:
+- After unpivoting, you’ll see two new columns created:
+  - **Attribute**: This column will show the original column names (e.g., "Deposit" or "Withdrawal").
+  - **Value**: This column contains the transaction amounts.
+- Rename the **Attribute** column to **Transaction Type** by double-clicking on its header and typing the new name.
+
+#### 6. Close and Apply:
+- Once your columns are renamed, go to the **Home** tab in Power Query Editor.
+- Click **Close & Apply** to save the changes and load the transformed data into Power BI.
+
