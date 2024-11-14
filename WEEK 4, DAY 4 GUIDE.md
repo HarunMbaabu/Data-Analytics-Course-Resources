@@ -16,6 +16,12 @@
    - Look at the **Customers** table and confirm `customer_id` as the primary key (unique identifier for each customer).
    - The **Orders** table should also have a `customer_id` column, which serves as the foreign key.
 
+>> A primary key is a unique identifier for each record in a database table. It ensures that each row in the table can be uniquely identified, which is crucial for maintaining data integrity and establishing relationships between tables in a relational database.
+
+>> A foreign key is a field (or collection of fields) in a database table that establishes a link between data in two tables by referencing the primary key of another table. Foreign keys are fundamental to relational databases because they allow you to create relationships between tables, ensuring that the data remains organized and interconnected.
+
+>> A foreign key column in one table refers to a primary key column in another table, establishing a relationship between the two.
+
 ### Create Relationships
 
 1. To set up a relationship between **Customers** and **Orders**, click and drag the `customer_id` column from **Customers** onto the `customer_id` column in **Orders**.
