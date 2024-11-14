@@ -28,6 +28,35 @@
 2. Power BI should automatically detect this as a **One-to-Many** relationship, where one customer can have multiple orders.
 3. If needed, check the relationship properties by double-clicking the connecting line to ensure the **Cross filter direction** is set to **Single**, which typically optimizes performance.
 
+#### 1. One-to-One (1:1) Relationship
+
+**Definition**: In a one-to-one relationship, each record in one table is associated with exactly one record in another table, and vice versa.
+
+**Usage**: This type of relationship is less common and is typically used to separate data into two tables when you have optional data or for security and performance reasons.
+
+**Example**: A `Person` table and a `Passport` table could have a one-to-one relationship, where each person has only one passport, and each passport is assigned to only one person.
+
+---
+
+#### 2. One-to-Many (1:N) Relationship
+
+**Definition**: In a one-to-many relationship, each record in the "parent" table can relate to multiple records in the "child" table, but each record in the child table is associated with only one record in the parent table.
+
+**Usage**: This is the most common type of relationship in databases and is used to model hierarchical data, where one entity (like a customer) can be linked to multiple related entries (like orders).
+
+**Example**: In a `Customers` and `Orders` table, each customer can have multiple orders, but each order is linked to only one customer.
+
+---
+
+#### 3. Many-to-Many (M:N) Relationship
+
+**Definition**: In a many-to-many relationship, each record in one table can relate to multiple records in another table, and each record in the second table can also relate to multiple records in the first table.
+
+**Implementation**: Direct many-to-many relationships are usually implemented using a *junction table* (or *bridge table*) that contains foreign keys referencing both related tables, turning the many-to-many relationship into two one-to-many relationships.
+
+**Example**: In a `Students` table and a `Courses` table, students can enroll in multiple courses, and each course can have
+
+
 ## Step 3: Create Calculated Columns and Measures Using DAX
 
 ### Calculated Columns
