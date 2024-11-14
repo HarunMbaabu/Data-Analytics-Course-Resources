@@ -1,4 +1,4 @@
-**WEEK 4, DAY 4 GUIDE:** Today we will beuild on top of where we left yesterday, we will import data, and learn how to build relationships, creating calculated columns and measures, optimizing your model, and finally creating visualizations in Power BI.
+**WEEK 4, DAY 4 GUIDE:** Today we will build on top of where we left yesterday, we will import data, and learn how to build relationships, create calculated columns and measures, optimize our model, and finally create visualizations in Power BI.
 
 ### **Step 1: Import Data Files.**
 
